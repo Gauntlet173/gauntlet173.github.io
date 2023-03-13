@@ -6,10 +6,8 @@ Blawx is my tool for demonstrating that it is possible to take declarative logic
 which I believe to be the best way to encode legislation, regulation, and contract, and
 turn it into a user interface that is approachable for non-programmers.
 
-It is a graphical development environment for the Flora-2 programming language, built in
+It is a web app and graphical development environment for the s(CASP) programming language, built in
 Google's Blockly tool for graphical development environments. The source code is [avaialable
-on GitHub](https://github.com/Blawx/blawx), and a working demonstration is available online at [www.blawx.com](https://www.blawx.com).
+on GitHub](https://github.com/Lexpedite/blawx), and a working demonstration is available online at [dev.blawx.com](https://dev.blawx.com).
 
-An early version of Blawx was also demonstrated in [an article in the MIT Computational Law Report](https://law.mit.edu).
-
-To get started, check out the [beginner's guide in the documentation on the live demo](https://dev.blawx.com/docs/guide).
+A very early version of Blawx was also demonstrated in [an article in the MIT Computational Law Report](https://law.mit.edu).

@@ -15,11 +15,11 @@ artificial intelligence to the task of representing legal knowledge about
 statutes, regulations, contracts, and other formally-drafted written rules.
 
 I'm currently the owner and operator of my own consulting firm, Lexpedite
-Legal Technologies Ltd., and through Lexpedite I am on an interchange with
-Service Canada to act as the Director of Rules as Code for their Benefits
-Delivery Modernization Programme.
+Legal Technology Ltd., and through Lexpedite I am on an interchange with
+the Public Health Agency of Canada to act as their Director of Rules as Code.
 
-Previously, I have been the Senior Researcher, Symbolic Artificial Intelligence
+Previously, I have held the same role at Service Canada's Benefits Modernization
+Programme, been the Senior Researcher, Symbolic Artificial Intelligence
 for the Singapore Management University Centre for Computational Law,
 and a sessional instructor at the University of Alberta teaching law
 students how to use Docassemble to automate legal services.
@@ -27,7 +27,7 @@ students how to use Docassemble to automate legal services.
 I am also the author of Blawx, and one of the administrators of 
 talk.RulesAsCode.com, which you can check out in my Projects page.
 
-When I have something to say that doesn't fit in a tweet, I post to my
-Rules as Code Diary, which is the main reason for this site.
+My blogging comes in waves. Lots for a few months, nothing for a year.
+But it's free, so you get what you pay for.
 
 Thanks for visiting, and stay in touch.

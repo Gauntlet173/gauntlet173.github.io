@@ -36,7 +36,7 @@ When I last posted, Blawx was on version 1.3.15-alpha. That's about 30 releases 
 
 Here's a video demo of the version that went live last Friday:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jJnR5mrNfu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< youtube jJnR5mrNfu8 >}}
 
 ### Lots of Work With Blawx
 

@@ -226,7 +226,7 @@ But maybe we could help it get closer.
 In order to be able to test this idea with Blawx, I needed a way for GPT4 to generate Blawx code in text, in such a way that I could read and validate it. I came up with a relatively
 simple syntax that is built around how the blocks appear visually in blocks. Essentially,
 a statement is preceded with a hyphen, a value input is surrounded by angle brackets,
-and a field input is surrounded by parenthesis. Variables are expressed in all-caps,
+a field input is surrounded by parenthesis, and a statement input is preceded by a colon and a newline, followed by an indented block of statements. Variables are expressed in all-caps,
 values and plain text elements appear normally.
 
 For example, this rule in Blawx:
@@ -238,9 +238,9 @@ Would appear like this in the text version:
     - <GAME> is in the category (game)
     - <PLAYER1> played in <GAME>
     - <PLAYER2> played in <GAME>
-    - <PLAYER1> threw <SIGN1>
-    - <PLAYER2> threw <SIGN2>
-    - <SIGN1> beats <SIGN2>
+    - <PLAYER1> threw <THROW1>
+    - <PLAYER2> threw <THROW2>
+    - <THROW1> beats <THROW2>
   We also know:
     - the winner of <GAME> is <PLAYER1>
 ```

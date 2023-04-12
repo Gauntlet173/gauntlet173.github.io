@@ -22,30 +22,30 @@ I put the text of sections 3 and 4 of the Old Age Security Act into ChatGPT4, an
 
 Here's the answer I got, leaving out the (very important) part about not relying on ChatGPT4 for legal advice.
 
-```
-Based on the text of Section 3 and 4 provided, a person born in 1950 with a valid immigration visa might be eligible for a full monthly pension under Section 3(1)(b) if they meet the following criteria:
-
-1. On July 1, 1977, they were not a pensioner but had attained 25 years of age and resided in Canada or, if they did not reside in Canada, had resided in Canada for any period after attaining 18 years of age.
-
-2. They have attained 65 years of age.
-
-3. They have resided in Canada for the 10 years immediately preceding the day on which their application is approved or, if they have not so resided, they have been present in Canada prior to those 10 years for an aggregate period at least equal to three times the aggregate periods of absence from Canada during those 10 years, and have resided in Canada for at least one year immediately preceding the day on which their application is approved.
-
-Additionally, according to Section 4(1), they must be legally resident in Canada on the day preceding the day their application is approved. The person's valid immigration visa could potentially indicate legal residency, but further information would be needed to confirm this.
-```
+>Based on the text of Section 3 and 4 provided, a person born in 1950 with a valid immigration visa might be eligible for a full monthly pension under Section 3(1)(b) if they meet the following criteria:
+>
+>1. On July 1, 1977, they were not a pensioner but had attained 25 years of age and resided in Canada or, if they did not reside in Canada, had resided in Canada for any period after attaining 18 years of age.
+>
+>2. They have attained 65 years of age.
+>
+>3. They have resided in Canada for the 10 years immediately preceding the day on which their application is approved or, if they have not so resided, they have been present in Canada prior to those 10 years for an aggregate period at least equal to three times the aggregate periods of absence from Canada during those 10 years, and have resided in Canada for at least one year immediately preceding the day on which their application is approved.
+>
+>Additionally, according to Section 4(1), they must be legally resident in Canada on the day preceding the day their application is approved. The person's valid immigration visa could potentially indicate legal residency, but further information would be needed to confirm this.
 
 This is pretty impressive. But there are a few things about this explanation that give me pause.
 
 Section 3(1)(b)(i) reads as follows:
 
-```
-Payment of full pension
-3.
-  (1) Subject to this Act and the regulations, a full monthly pension may be paid to
-    ...
-    (b) every person who
-      (i) on July 1, 1977 was not a pensioner but had attained twenty-five years of age and resided in Canada or, if that person did not reside in Canada, had resided in Canada for any period after attaining eighteen years of age or possessed a valid immigration visa,
-```
+> Payment of full pension
+>
+> 3. (1) Subject to this Act and the regulations, a full monthly pension may be paid to
+>
+>    ...
+>
+>    (b) every person who
+>
+>    (i) on July 1, 1977 was not a pensioner but had attained twenty-five years of age and resided in Canada or, if that person did not reside in Canada, had resided in Canada for any period after attaining eighteen years of age or possessed a valid immigration visa,
+
 
 So paragraph 1 of the answer is dealing with that requirement. And it makes a couple of mistakes that a human wouldn't make. First, there is no question about whether or not the person had attained twenty-five years of age as of July 1, 1977. They were born in 1950, so they would need to be at least 26 at that point. GPT has correctly identified it as a requirement, but incorrectly treated it as a requirement that hasn't yet been met.
 
@@ -119,24 +119,20 @@ a list of JSON statements.
 
 I explained the ontology by saying the following:
 
-```
-The ontology for this conversation includes the category "game", which refers to a game of Rock Paper Scissors, "player", which refers to a person, and "sign", which refers to a hand sign used in a game of rock paper scissors. A game has the attribute "participant", which refers to players who participated in the game. Players have the attribute "throw", which refers to a sign that they threw. Signs have the attribute "beats", which refers to the signs that they defeat in pairwise competition.
-```
+
+>The ontology for this conversation includes the category "game", which refers to a game of Rock Paper Scissors, "player", which refers to a person, and "sign", which refers to a hand sign used in a game of rock paper scissors. A game has the attribute "participant", which refers to players who participated in the game. Players have the attribute "throw", which refers to a sign that they threw. Signs have the attribute "beats", which refers to the signs that they defeat in pairwise competition.
+
 
 This is the ontology used by the Rock Paper Scissors example included with Blawx.
 
 I then started the interview, and gave it the following prompts:
-```
-OK. There are three signs: rock, paper, and scissors. Rock beats scissors, scissors beats paper, and paper beats rock. Jason and Bob played in a game called "testgame". Jason threw paper and bob threw scissors.
-```
 
-```
-There is another player called sally. Sally also played in testgame, but I don't know what sign she threw.
-```
 
-```
-Lizard is a sign that beats rock. Sally never throws lizard.
-```
+>OK. There are three signs: rock, paper, and scissors. Rock beats scissors, scissors beats paper, and paper beats rock. Jason and Bob played in a game called "testgame". Jason threw paper and bob threw scissors.
+
+>There is another player called sally. Sally also played in testgame, but I don't know what sign she threw.
+
+>Lizard is a sign that beats rock. Sally never throws lizard.
 
 The final version of the JSON that ChatGPT4 generated is shown here:
 ```json
@@ -188,28 +184,25 @@ Well, I did a demo at DocaCon 2023 last week in which I showed an example of jus
 Here's the raw text explanation that was generated by Blawx, displayed inside
 a Docassemble interview.
 
-```
-a full monthly pension may be paid to jason, because
-the conclusion in sec_3__subsec_1_section that a full monthly pension may be paid to jason holds, because
-according to sec_3__subsec_1_section, a full monthly pension may be paid to jason, because
-the conclusion in sec_3__subsec_1__para_a_section that jason qualifies under s3(1)(a) holds, because
-according to sec_3__subsec_1__para_a_section, jason qualifies under s3(1)(a), because
-jason is a person, and
-jason was a pensioner on July 1 1977
-there is no evidence that the conclusion in sec_3__subsec_1_section that a full monthly pension may be paid to jason is defeated, because
-there is no evidence that the conclusion in sec_4__subsec_1_section that it is not the case that a full monthly pension may be paid to jason holds, because
-there is no evidence that according to sec_4__subsec_1_section, it is not the case that a full monthly pension may be paid to jason, because
-jason is a person, justified above, and
-jason was a pensioner on July 1 1977, justified above
-```
+
+>a full monthly pension may be paid to jason, because
+>the conclusion in sec_3__subsec_1_section that a full monthly pension may be paid to jason holds, because
+>according to sec_3__subsec_1_section, a full monthly pension may be paid to jason, because
+>the conclusion in sec_3__subsec_1__para_a_section that jason qualifies under s3(1)(a) holds, because
+>according to sec_3__subsec_1__para_a_section, jason qualifies under s3(1)(a), because
+>jason is a person, and
+>jason was a pensioner on July 1 1977
+>there is no evidence that the conclusion in sec_3__subsec_1_section that a full monthly pension may be paid to jason is defeated, because
+>there is no evidence that the conclusion in sec_4__subsec_1_section that it is not the case that a full monthly pension may be paid to jason holds, because
+>there is no evidence that according to sec_4__subsec_1_section, it is not the case that a full monthly pension may be paid to jason, because
+>jason is a person, justified above, and
+>jason was a pensioner on July 1 1977, justified above
 
 I actually asked ChatGPT3.5 to summarize that text, and here's what it generates:
-```
-Jason qualifies for a full monthly pension according to Section 3, Subsection 1, Paragraph a because he is a person and was a pensioner on July 1, 1977. There is no evidence to contradict this conclusion in Section 3, Subsection 1 or Section 4, Subsection 1. Therefore, Jason is eligible for the full monthly pension.
-```
+>Jason qualifies for a full monthly pension according to Section 3, Subsection 1, Paragraph a because he is a person and was a pensioner on July 1, 1977. There is no evidence to contradict this conclusion in Section 3, Subsection 1 or Section 4, Subsection 1. Therefore, Jason is eligible for the full monthly pension.
 
 That is a good summary. And even if
-I did, the risk factors involved in using GPT to summarize explanations are much lower,
+it wasn't, the risk factors involved in using GPT to summarize explanations are much lower,
 because there's nothing stopping you from giving the user access to the raw explanation, also, and advising them not to rely on the summary.
 
 So GPT4 can certainly also be used to simplify the explanations that are generated by
@@ -260,12 +253,12 @@ of the format for a subset of the Blawx block language, and then give it some ex
 encodings might look.
 
 I then asked it to generate a legal encoding for a portion of the Old Age Security Act:
-```
-Legal Text:
-3. (1) Subject to this Act and the regulations, a full monthly pension may be paid to
-     (b) every person who
-       (i) on July 1, 1977 was not a pensioner but had attained twenty-five years of age and resided in Canada or, if that person did not reside in Canada, had resided in Canada for any period after attaining eighteen years of age or possessed a valid immigration visa,
-```
+
+>3.(1) Subject to this Act and the regulations, a full monthly pension may be paid to
+>
+>   (b) every person who
+>
+>   (i) on July 1, 1977 was not a pensioner but had attained twenty-five years of age and resided in Canada or, if that person did not reside in Canada, had resided in Canada for any period after attaining eighteen years of age or possessed a valid immigration visa,
 
 Here is the code that ChatGPT4 generated in response:
 ```
@@ -310,7 +303,7 @@ we are aiming for, here, is a sufficiently good first draft that it might accell
 the drafting process. Logically incorrect is okay, in that context.
 
 The more significant concern is if there are issues that prevent the response from being
-usable, and unforunately, we have two examples of that, here, too.
+usable, and unfortunately, we have two examples of that, here, too.
 
 First, it is inventing incorrect patterns for the negation of predicates that it defined.
 

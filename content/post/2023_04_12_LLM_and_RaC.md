@@ -353,6 +353,11 @@ Fourth, Blawx is essentially a controlled natural language. I suspect tools like
 controlled natural languages than they are at more abstruse representations. But that's pure
 speculation. It's one of the many, many things I'd be interested in experimenting on.
 
+But perhaps most important about the combination of the two is this: **To the extent that GPT4 is not good enough to draft symbolic encodings, that problem can be solved by giving it more and better examples. That requires tools for human-drafted symbolic encodings of laws.
+To the extent that GPT4 is capable of generating those encodings, they need to be validated
+by human beings before they would be trustworthy. Which means GPT4 needs to
+generate code that can be used in tools for human-edited and human-validated symbolic encodings. Which are the precise same tools. Either way, to be useful for law, statistical AI like GPT4 needs symbolic AI like Blawx.**
+
 ## Conclusion
 
 GPT4 is not enough, on its own, to build trustworthy legal automation. It is too prone to logical error in understanding the meaning of legal texts. However, while GPT3.5 was capable
@@ -364,7 +369,11 @@ for generating Rules as Code encodings in the future.
 
 On the other hand, we might also find that extending the text version of the Blawx language to cover more of its features, and giving GPT4 sufficient examples to be able to use them all, stretches the limits of the inputs that GPT4 can reasonably handle. Or we might find that the semantic weakness in the generated code is so severe, or otherwise challenging to detect and fix, that the automatically-generated code is not yet a net gain for efficiency.
 
-More work remains to be done.
+Both improving the capability of tools like GPT to generate semantically accurate encodings
+of laws, *and* validating those encodings once they exist, requires tools like Blawx to be
+successful.
+
+It's not GPT *or* Blawx, it's GPT *and* Blawx.
 
 ## Upcoming
 

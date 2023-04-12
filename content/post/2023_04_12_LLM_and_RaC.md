@@ -22,30 +22,30 @@ I put the text of sections 3 and 4 of the Old Age Security Act into ChatGPT4, an
 
 Here's the answer I got, leaving out the (very important) part about not relying on ChatGPT4 for legal advice.
 
->```
->Based on the text of Section 3 and 4 provided, a person born in 1950 with a valid immigration visa might be eligible for a full monthly pension under Section 3(1)(b) if they meet the following criteria:
->
->1. On July 1, 1977, they were not a pensioner but had attained 25 years of age and resided in Canada or, if they did not reside in Canada, had resided in Canada for any period after attaining 18 years of age.
->
->2. They have attained 65 years of age.
->
->3. They have resided in Canada for the 10 years immediately preceding the day on which their application is approved or, if they have not so resided, they have been present in Canada prior to those 10 years for an aggregate period at least equal to three times the aggregate periods of absence from Canada during those 10 years, and have resided in Canada for at least one year immediately preceding the day on which their application is approved.
->
->Additionally, according to Section 4(1), they must be legally resident in Canada on the day preceding the day their application is approved. The person's valid immigration visa could potentially indicate legal residency, but further information would be needed to confirm this.
->```
+```
+Based on the text of Section 3 and 4 provided, a person born in 1950 with a valid immigration visa might be eligible for a full monthly pension under Section 3(1)(b) if they meet the following criteria:
+
+1. On July 1, 1977, they were not a pensioner but had attained 25 years of age and resided in Canada or, if they did not reside in Canada, had resided in Canada for any period after attaining 18 years of age.
+
+2. They have attained 65 years of age.
+
+3. They have resided in Canada for the 10 years immediately preceding the day on which their application is approved or, if they have not so resided, they have been present in Canada prior to those 10 years for an aggregate period at least equal to three times the aggregate periods of absence from Canada during those 10 years, and have resided in Canada for at least one year immediately preceding the day on which their application is approved.
+
+Additionally, according to Section 4(1), they must be legally resident in Canada on the day preceding the day their application is approved. The person's valid immigration visa could potentially indicate legal residency, but further information would be needed to confirm this.
+```
 
 This is pretty impressive. But there are a few things about this explanation that give me pause.
 
 Section 3(1)(b)(i) reads as follows:
 
-
->Payment of full pension
->3.
->  (1) Subject to this Act and the regulations, a full monthly pension may be paid to
->    ...
->    (b) every person who
->      (i) on July 1, 1977 was not a pensioner but had attained twenty-five years of age and resided in Canada or, if that person did not reside in Canada, had resided in Canada for any period after attaining eighteen years of age or possessed a valid immigration visa,
-
+```
+Payment of full pension
+3.
+  (1) Subject to this Act and the regulations, a full monthly pension may be paid to
+    ...
+    (b) every person who
+      (i) on July 1, 1977 was not a pensioner but had attained twenty-five years of age and resided in Canada or, if that person did not reside in Canada, had resided in Canada for any period after attaining eighteen years of age or possessed a valid immigration visa,
+```
 
 So paragraph 1 of the answer is dealing with that requirement. And it makes a couple of mistakes that a human wouldn't make. First, there is no question about whether or not the person had attained twenty-five years of age as of July 1, 1977. They were born in 1950, so they would need to be at least 26 at that point. GPT has correctly identified it as a requirement, but incorrectly treated it as a requirement that hasn't yet been met.
 
